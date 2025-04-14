@@ -1,0 +1,40 @@
+[versions]
+kotlin = "2.1.0"
+junit-jupiter = "5.11.1"
+kotest = "5.5.5"
+arrow = "2.0.1"
+spring-boot = "3.4.4"
+micrometer = "1.14.5"
+postgresql = "42.7.1"
+flyway = "11.1.0"
+testcontainers = "1.20.4"
+springMockk = "4.0.2"
+mockk = "1.13.8"
+restAssured = "5.4.0"
+jacksonModuleKotlin = "2.18.0"
+
+[libraries]
+arrow = { module = "io.arrow-kt:arrow-core", version.ref = "arrow" }
+spring-boot-starter = { module = "org.springframework.boot:spring-boot-starter", version.ref = "spring-boot" }
+spring-boot-web = { module = "org.springframework.boot:spring-boot-starter-web", version.ref = "spring-boot" }
+spring-boot-data-jdbc = { module = "org.springframework.boot:spring-boot-starter-data-jdbc", version.ref = "spring-boot" }
+micrometer-core = { module = "io.micrometer:micrometer-core", version.ref = "micrometer" }
+postgresql = { module = "org.postgresql:postgresql", version.ref = "postgresql" }
+flyway = { module = "org.flywaydb:flyway-core", version.ref = "flyway" }
+flyway-postgresql = { module = "org.flywaydb:flyway-database-postgresql", version.ref = "flyway" }
+jackson-module-kotlin = { module = "com.fasterxml.jackson.module:jackson-module-kotlin", version.ref = "jacksonModuleKotlin" }
+
+
+spring-boot-test = { module = "org.springframework.boot:spring-boot-starter-test", version.ref = "spring-boot" }
+kotest-assertions = { module = "io.kotest:kotest-assertions-core-jvm", version.ref = "kotest" }
+junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit-jupiter" }
+testcontainers = { module = "org.testcontainers:testcontainers", version.ref = "testcontainers" }
+testcontainers-postgresql = { module = "org.testcontainers:postgresql", version.ref = "testcontainers" }
+mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
+spring-mockk = { module = "com.ninja-squad:springmockk", version.ref = "springMockk" }
+rest-assured-all = { module = "io.rest-assured:rest-assured-all", version.ref = "restAssured" }
+rest-assured = { module = "io.rest-assured:rest-assured", version.ref = "restAssured" }
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version = "2.0.21" }
+kotlin-spring = { id = "org.jetbrains.kotlin.plugin.spring", version.ref = "kotlin" }
