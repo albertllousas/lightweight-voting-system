@@ -13,7 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.context.SpringBootTest
 import org.springframework.context.annotation.Bean
 import voting.domain.VotingSessionEvent
-import votingsession.fixtures.TestBuilders
+import voting.fixtures.TestBuilders
 
 @Tag("integration")
 @SpringBootTest(

@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test
 import voting.domain.EventPublisher
 import voting.domain.VotingSessionEvent
 import voting.domain.VotingSessionRepository
-import votingsession.fixtures.TestBuilders
+import voting.fixtures.TestBuilders
 import java.util.UUID
 
 class VoteServiceTest {

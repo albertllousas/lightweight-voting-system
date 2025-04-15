@@ -4,8 +4,8 @@ import io.kotest.assertions.throwables.shouldThrow
 import io.kotest.matchers.shouldBe
 import org.junit.jupiter.api.Tag
 import org.junit.jupiter.api.Test
-import votingsession.fixtures.Postgres
-import votingsession.fixtures.TestBuilders
+import voting.fixtures.Postgres
+import voting.fixtures.TestBuilders
 import java.util.UUID
 
 @Tag("integration")

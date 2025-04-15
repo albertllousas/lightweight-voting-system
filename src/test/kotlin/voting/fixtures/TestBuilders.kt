@@ -1,4 +1,4 @@
-package votingsession.fixtures
+package voting.fixtures
 
 import voting.domain.VotingSession
 import voting.domain.VotingStatus

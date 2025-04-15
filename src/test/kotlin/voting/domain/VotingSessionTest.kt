@@ -11,7 +11,7 @@ import voting.domain.VotingSessionError.Type.NOT_PRESENT_CANDIDATE_ID
 import voting.domain.VotingSessionError.Type.VOTING_CLOSED
 import voting.domain.VotingStatus.CLOSED
 import voting.domain.VotingStatus.OPEN
-import votingsession.fixtures.TestBuilders
+import voting.fixtures.TestBuilders
 import java.time.Clock
 import java.time.Instant
 import java.time.LocalDateTime

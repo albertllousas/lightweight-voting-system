@@ -1,4 +1,4 @@
-package votingsession.fixtures
+package voting.fixtures
 
 import com.zaxxer.hikari.HikariDataSource
 import org.flywaydb.core.Flyway

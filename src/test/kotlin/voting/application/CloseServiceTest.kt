@@ -10,7 +10,7 @@ import voting.domain.EventPublisher
 import voting.domain.VotingSessionEvent
 import voting.domain.VotingSessionRepository
 import voting.domain.VotingStatus.CLOSED
-import votingsession.fixtures.TestBuilders
+import voting.fixtures.TestBuilders
 
 class CloseServiceTest {
 

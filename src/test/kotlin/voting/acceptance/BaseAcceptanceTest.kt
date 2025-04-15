@@ -13,7 +13,7 @@ import org.springframework.test.context.ActiveProfiles
 import org.springframework.test.context.ContextConfiguration
 import voting.acceptance.BaseAcceptanceTest.Initializer
 import voting.infra.App
-import votingsession.fixtures.Postgres
+import voting.fixtures.Postgres
 
 @ActiveProfiles("test")
 @SpringBootTest(webEnvironment = RANDOM_PORT)
