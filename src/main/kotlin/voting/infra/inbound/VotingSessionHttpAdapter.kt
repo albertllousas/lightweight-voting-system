@@ -16,6 +16,7 @@ import voting.application.CloseService
 import voting.application.CreateService
 import voting.application.VoteService
 import voting.domain.VotingSessionRepository
+import voting.infra.outbound.VotingSessionRepositoryPostgresAdapter
 import java.util.UUID
 
 @RestController
@@ -24,7 +25,7 @@ class VotingSessionHttpAdapter(
     private val create: CreateService,
     private val vote: VoteService,
     private val close: CloseService,
-    private val repository: VotingSessionRepository,
+    private val repository: VotingSessionRepositoryPostgresAdapter,
 ) {
 
     @PostMapping
